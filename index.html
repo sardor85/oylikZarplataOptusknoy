@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="table" border="1">
+        <thead>
+            <tr>
+                <th>назв/е</th>
+                <th>кол/во</th>
+                <th>цена</th>
+                <th>итог</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="name"/></td>
+                <td><input type="number" name="count" onchange="calculateTotal(this)"/></td>
+                <td><input type="number" name="price" onchange="calculateTotal(this)"/></td>
+                <td><input type="number" name="total" readonly/></td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="addRow()">таблица</button>
+    <input type="text" name="grandTotal" id="a"readonly/>
+    <script src="scritp.js"></script>
+</body>
+</html>

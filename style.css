@@ -1,0 +1,30 @@
+input{
+    width:70px
+      }
+      table{
+      border: none;
+       
+      }
+      input,td{
+      border: none;
+      background-color: yellow; 
+      margin:2px;
+      font-size:18px; 
+      }
+      td{
+      box-shadow:3px 3px 1px #ccc;
+      border-left:0.1px solid;
+      border-right:0.1px solid; 
+      }
+      #a{
+      width:200px; 
+       background-color:lightBlue; 
+       font-weight:bold;
+       font-size:22px;
+       text-align: center;  
+      }
+      th{
+      background-color:#770; 
+      color:#fff
+       
+      }
